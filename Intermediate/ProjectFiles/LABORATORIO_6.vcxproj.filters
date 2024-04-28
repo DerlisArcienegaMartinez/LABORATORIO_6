@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LABORATORIO_6.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{89CC9600-A778-41C7-8FB8-FBC079CBEAE2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LABORATORIO_6.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LABORATORIO_6Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A42708F3-112C-41F2-ACCC-BC1E1AFE654B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LABORATORIO_6">
+      <UniqueIdentifier>{44E93CCF-C4E3-4061-93BD-DC232F7640C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LABORATORIO_6\LABORATORIO_6.Build.cs">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\LABORATORIO_6.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\LABORATORIO_6.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\LABORATORIO_6GameMode.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\LABORATORIO_6GameMode.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\LABORATORIO_6Pawn.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\LABORATORIO_6Pawn.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\LABORATORIO_6Projectile.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\LABORATORIO_6Projectile.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\NaveEnemiga.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\NaveEnemiga.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\NaveEnemigaFactory.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\NaveEnemigaFactory.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\NavesAereas.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\NavesAereas.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\NaveTerrestre.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\NaveTerrestre.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LABORATORIO_6",
+			"Path": "C:\\Users\\LENOVO\\Desktop\\dkam\\LABORATORIO_6\\Source\\LABORATORIO_6.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LABORATORIO_6Editor",
+			"Path": "C:\\Users\\LENOVO\\Desktop\\dkam\\LABORATORIO_6\\Source\\LABORATORIO_6Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
