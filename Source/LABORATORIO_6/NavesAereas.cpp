@@ -12,6 +12,7 @@ void ANavesAereas::BeginPlay()
 	velocidadMovimiento = 300.0f; //Velocidad predeterminada
 	direccionMovimiento = FVector(0.0f, 1.0f, 0.0f);
 
+	nombreNave = "Nave JEFE AEREO";
 
 	//LIMITES DEL ESCENARIO
 	LimiteDerecho = 1870.0f;         //Y

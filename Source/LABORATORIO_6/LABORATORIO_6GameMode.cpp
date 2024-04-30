@@ -5,6 +5,7 @@
 #include "NaveEnemiga.h"
 #include "NavesAereas.h"
 #include "NaveTerrestre.h"
+#include "NaveAcuatica.h"
 #include "NaveEnemigaFactory.h"
 #include "EngineUtils.h"
 
@@ -57,6 +58,19 @@ void ALABORATORIO_6GameMode::BeginPlay()
 
 	}
 
+	ubicacionActualNaveEnemiga.X += 300;
+	for (int c = 0; c < 7; c++)
+	{
+		ANaveEnemiga* NaveEnemiga = UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas::Acuatica, ubicacionActualNaveEnemiga, rotacionNave, this);
+
+		NaveEnemiga->ClaveIdNave = ClavesNaves++;
+		NavesEnemigasMap.Add(NaveEnemiga, ClavesNaves);
+		NavesEnemyTA.Add(NaveEnemiga);
+
+		ubicacionActualNaveEnemiga.Y -= 300;
+	}
+
+	//FTIMERHANDLE
 	GetWorldTimerManager().SetTimer(FTHMostrarClaveNave, this, &ALABORATORIO_6GameMode::MostrarClaves, 2.0f, false);
 
 }
@@ -76,7 +90,7 @@ void ALABORATORIO_6GameMode::MostrarClaves()
 		if (GEngine)
 		{
 			// Usar un valor entero en lugar de flotante para el alfa
-			GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::White, mensaje);
+			GEngine->AddOnScreenDebugMessage(-1, 50.0f, FColor::Orange, mensaje);
 		}
 	}
 }

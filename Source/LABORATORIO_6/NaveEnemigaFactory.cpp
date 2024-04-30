@@ -6,19 +6,18 @@
 #include "Engine/World.h"
 #include "NavesAereas.h"
 #include "NaveTerrestre.h"
+#include "NaveAcuatica.h"
 
 //crea una nave enemiga con el nombre, la posición y la rotación especificados en el mundo determinado.
 ANaveEnemiga* UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas TipoNave, const FVector& Posicion, const FRotator& Rotacion, UObject* WorldReal)
 {
-    // Obtiene el objeto UWorld del contexto UObject dado.
+   
     UWorld* World = GEngine->GetWorldFromContextObjectChecked(WorldReal);
 
-    // Comprueba si el mundo es válido. De lo contrario, registre un error y devuelva nullptr.
     if (!World) {
         UE_LOG(LogTemp, Error, TEXT("Mundo no encontrado."));
         return nullptr;
     }
-    // Crea un objeto FActorSpawnParameters para especificar los parámetros de generación.
     FActorSpawnParameters SpawnParams;
 
     // Inicializa un puntero a un objeto de NaveEnemiga, establecido inicialmente en nullptr.
@@ -37,13 +36,16 @@ ANaveEnemiga* UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas TipoNave,
         // Si TipoNave es Transporte, establece ClaseNave en la UClass de ANaveEnemigaTransporte.
         ClaseNave = ANaveTerrestre::StaticClass();
         break;
+    case ETipoNavesEnemigas::Acuatica:
+        ClaseNave = ANaveAcuatica::StaticClass();
+        break;
     
     default:
+
         // Si no se reconoce TipoNave, registra un mensaje de error y devuelve nullptr.
         UE_LOG(LogTemp, Error, TEXT("Tipo de nave enemiga no reconocido."));
         return nullptr;
     }
-    // Compruebe si ClaseNave es válida
     if (!ClaseNave)
     {
         // Si no se encuentra ClaseNave, registra un mensaje de error

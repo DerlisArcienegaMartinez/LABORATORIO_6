@@ -18,18 +18,18 @@ class ANaveEnemiga;
 #endif
 #define LABORATORIO_6_NaveEnemigaFactory_generated_h
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_SPARSE_DATA
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_RPC_WRAPPERS \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_SPARSE_DATA
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execCrearNaveEnemiga);
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execCrearNaveEnemiga);
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_INCLASS_NO_PURE_DECLS \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNaveEnemigaFactory(); \
 	friend struct Z_Construct_UClass_UNaveEnemigaFactory_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UNaveEnemigaFactory)
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_INCLASS \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_INCLASS \
 private: \
 	static void StaticRegisterNativesUNaveEnemigaFactory(); \
 	friend struct Z_Construct_UClass_UNaveEnemigaFactory_Statics; \
@@ -47,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(UNaveEnemigaFactory)
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_STANDARD_CONSTRUCTORS \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNaveEnemigaFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNaveEnemigaFactory) \
@@ -60,7 +60,7 @@ private: \
 public:
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_ENHANCED_CONSTRUCTORS \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNaveEnemigaFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -73,28 +73,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNaveEnemigaFactory); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNaveEnemigaFactory)
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_PRIVATE_PROPERTY_OFFSET
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_21_PROLOG
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_GENERATED_BODY_LEGACY \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_PRIVATE_PROPERTY_OFFSET
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_22_PROLOG
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_PRIVATE_PROPERTY_OFFSET \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_SPARSE_DATA \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_RPC_WRAPPERS \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_INCLASS \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_STANDARD_CONSTRUCTORS \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_PRIVATE_PROPERTY_OFFSET \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_SPARSE_DATA \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_RPC_WRAPPERS \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_INCLASS \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_GENERATED_BODY \
+#define LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_PRIVATE_PROPERTY_OFFSET \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_SPARSE_DATA \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_INCLASS_NO_PURE_DECLS \
-	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_24_ENHANCED_CONSTRUCTORS \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_PRIVATE_PROPERTY_OFFSET \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_SPARSE_DATA \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_INCLASS_NO_PURE_DECLS \
+	LABORATORIO_6_Source_LABORATORIO_6_NaveEnemigaFactory_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -107,7 +107,8 @@ template<> LABORATORIO_6_API UClass* StaticClass<class UNaveEnemigaFactory>();
 
 #define FOREACH_ENUM_ETIPONAVESENEMIGAS(op) \
 	op(ETipoNavesEnemigas::Aereas) \
-	op(ETipoNavesEnemigas::Terrestre) 
+	op(ETipoNavesEnemigas::Terrestre) \
+	op(ETipoNavesEnemigas::Acuatica) 
 
 enum class ETipoNavesEnemigas : uint8;
 template<> LABORATORIO_6_API UEnum* StaticEnum<ETipoNavesEnemigas>();

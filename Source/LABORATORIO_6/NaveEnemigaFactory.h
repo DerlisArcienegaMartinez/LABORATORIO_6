@@ -16,7 +16,8 @@ UENUM(BlueprintType)
 enum class ETipoNavesEnemigas : uint8
 {
 	Aereas,
-	Terrestre
+	Terrestre,
+	Acuatica
 };
 UCLASS()
 class LABORATORIO_6_API UNaveEnemigaFactory : public UObject

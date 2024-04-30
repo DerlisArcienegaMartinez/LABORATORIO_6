@@ -1,0 +1,9 @@
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Development\LABORATORIO_6\Definitions.LABORATORIO_6.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6/TerrestreTransporte.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\NaveTerrestre.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\NaveEnemiga.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\NaveEnemiga.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\NaveTerrestre.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\TerrestreTransporte.generated.h

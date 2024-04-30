@@ -16,6 +16,8 @@ void ANaveTerrestre::BeginPlay()
 
 	direccionMovimiento = FVector(-1.0f, 0.0, 0.0f);
 	velocidadMovimiento = 150.0f;
+
+	nombreNave = "Nave JEFE TERRESTRE";
 }
 
 void ANaveTerrestre::Tick(float DeltaTime)

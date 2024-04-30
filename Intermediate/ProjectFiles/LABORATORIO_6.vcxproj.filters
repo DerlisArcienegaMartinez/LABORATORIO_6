@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LABORATORIO_6.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{89CC9600-A778-41C7-8FB8-FBC079CBEAE2}</UniqueIdentifier>
+      <UniqueIdentifier>{66D1B872-C11A-4DC2-A79A-6AE7501E7CD4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LABORATORIO_6.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\LABORATORIO_6Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A42708F3-112C-41F2-ACCC-BC1E1AFE654B}</UniqueIdentifier>
+      <UniqueIdentifier>{FAD4FAFE-67B8-43F9-8781-AE55289805E1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +32,32 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LABORATORIO_6">
-      <UniqueIdentifier>{44E93CCF-C4E3-4061-93BD-DC232F7640C3}</UniqueIdentifier>
+      <UniqueIdentifier>{FB0EAC1E-6B6B-41A1-87A9-1AE1F28001EB}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\AcuaticaExploracion.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\AcuaticaExploracion.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\AcuaticaRescate.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\AcuaticaRescate.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\AereaCaza.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\AereaCaza.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\AereaTransporte.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\AereaTransporte.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
     <None Include="..\..\Source\LABORATORIO_6\LABORATORIO_6.Build.cs">
       <Filter>Source\LABORATORIO_6</Filter>
     </None>
@@ -59,6 +85,12 @@
     <ClInclude Include="..\..\Source\LABORATORIO_6\LABORATORIO_6Projectile.h">
       <Filter>Source\LABORATORIO_6</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\NaveAcuatica.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\NaveAcuatica.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\LABORATORIO_6\NaveEnemiga.cpp">
       <Filter>Source\LABORATORIO_6</Filter>
     </ClCompile>
@@ -81,6 +113,18 @@
       <Filter>Source\LABORATORIO_6</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LABORATORIO_6\NaveTerrestre.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\TerrestreArtilleria.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\TerrestreArtilleria.h">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LABORATORIO_6\TerrestreTransporte.cpp">
+      <Filter>Source\LABORATORIO_6</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LABORATORIO_6\TerrestreTransporte.h">
       <Filter>Source\LABORATORIO_6</Filter>
     </ClInclude>
   </ItemGroup>
