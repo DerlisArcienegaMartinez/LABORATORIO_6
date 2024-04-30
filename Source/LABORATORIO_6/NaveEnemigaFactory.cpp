@@ -61,6 +61,7 @@ ANaveEnemiga* UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas TipoNave,
         UE_LOG(LogTemp, Error, TEXT("Fallo al spawnear la nave enemiga."));
         return nullptr;
     }
+
     // Si el spawn fue exitoso, devuelve la NaveEnemiga generada
     return NaveEnemiga;
 }

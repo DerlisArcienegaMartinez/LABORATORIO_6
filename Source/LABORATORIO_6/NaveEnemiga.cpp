@@ -6,6 +6,8 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Engine/StaticMesh.h"
 
+
+
 // Sets default values
 ANaveEnemiga::ANaveEnemiga()
 {
@@ -15,7 +17,10 @@ ANaveEnemiga::ANaveEnemiga()
 	mallaNaveEnemiga->SetupAttachment(RootComponent); // configurando el componente mallaNaveEnemiga como un subcomponente 
 	RootComponent = mallaNaveEnemiga; // estableciendo el componente mallaNaveEnemiga como el componente raíz del actor.
 
+	
 }
+
+
 
 // Called when the game starts or when spawned
 void ANaveEnemiga::BeginPlay()
@@ -30,4 +35,6 @@ void ANaveEnemiga::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
+
 

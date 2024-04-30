@@ -19,8 +19,8 @@ public:
 
 protected:
 
-	FString nombre;
-	FString tipoNave;
+	FString nombreNave;
+	FString TipoNave;
 	FVector posicion;
 	FVector direccionMovimiento;
 
@@ -30,25 +30,24 @@ protected:
 
 
 
-
 public:
 	// Metodos accesores
 	FORCEINLINE float GetVelocidad() const { return velocidad; }
 	
 	FORCEINLINE float GetEnergia() const { return energia; }
-	FORCEINLINE FString GetNombre() const { return nombre; }
+	FORCEINLINE FString GetNombreNave() const { return nombreNave; }
 	FORCEINLINE FVector GetPosicion() const { return posicion; }
-	FORCEINLINE FString GetTipoNave() const { return tipoNave; }
+	FORCEINLINE FString GetTipoNave() const { return TipoNave; }
 	FORCEINLINE float GetVelocidadMovimiento() const { return velocidadMovimiento; }
 	FORCEINLINE FVector GetDireccionMovimiento() const { return direccionMovimiento; }
-
+  
 
 	FORCEINLINE void SetVelocidad(float _velocidad) { velocidad = _velocidad; }
 	
 	FORCEINLINE void SetEnergia(float _energia) { energia = _energia; }
-	FORCEINLINE void SetNombre(FString _nombre) { nombre = _nombre; }
+	FORCEINLINE void SetNombreNave(FString _nombre) { nombreNave = _nombre; }
 	FORCEINLINE void SetPosicion(FVector _posicion) { posicion = _posicion; }
-	FORCEINLINE void SetTipoNave(FString _tipoNave) { tipoNave = _tipoNave; }
+	FORCEINLINE void SetTipoNave(FString _tipoNave) { TipoNave = _tipoNave; }
 	FORCEINLINE void SetVelocidadMovimiento(float VelocidadMovimiento) { velocidadMovimiento = VelocidadMovimiento; }
 	FORCEINLINE void SetDireccionMovimiento(FVector DireccionMovimiento) { direccionMovimiento = DireccionMovimiento; }
 
@@ -58,13 +57,19 @@ public:
 	// Sets default values for this actor's properties
 	ANaveEnemiga();
 
+	int ClaveIdNave; //Clave unica de nave
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	
 
 protected:
 	void Mover(float DeltaTime) PURE_VIRTUAL(ANaveEnemiga::Mover);
