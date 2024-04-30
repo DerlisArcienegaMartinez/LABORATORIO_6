@@ -2,11 +2,18 @@
 
 
 #include "NaveEnemigaFactory.h"
-
 #include "Engine/World.h"
+
 #include "NavesAereas.h"
 #include "NaveTerrestre.h"
 #include "NaveAcuatica.h"
+
+#include "AereaCaza.h"
+#include "AereaTransporte.h"
+#include "TerrestreTransporte.h"
+#include "TerrestreArtilleria.h"
+#include "AcuaticaExploracion.h"
+#include "AcuaticaRescate.h"
 
 //crea una nave enemiga con el nombre, la posición y la rotación especificados en el mundo determinado.
 ANaveEnemiga* UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas TipoNave, const FVector& Posicion, const FRotator& Rotacion, UObject* WorldReal)
@@ -28,6 +35,7 @@ ANaveEnemiga* UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas TipoNave,
     // Declaración de cambio para determinar qué tipo de NaveEnemiga generar según el parámetro TipoNave.
     switch (TipoNave)
     {
+        //tipos
     case ETipoNavesEnemigas::Aereas:
         // Si TipoNave es Caza, establece ClaseNave en la UClass de ANaveEnemigaCaza.
         ClaseNave = ANavesAereas::StaticClass();
@@ -39,7 +47,28 @@ ANaveEnemiga* UNaveEnemigaFactory::CrearNaveEnemiga(ETipoNavesEnemigas TipoNave,
     case ETipoNavesEnemigas::Acuatica:
         ClaseNave = ANaveAcuatica::StaticClass();
         break;
-    
+
+
+         //subtipos
+    case ETipoNavesEnemigas::Caza:
+        ClaseNave = ANavesAereas::StaticClass();
+        break;
+    case ETipoNavesEnemigas::Transporte:
+        ClaseNave = ANavesAereas::StaticClass();
+        break;
+    case ETipoNavesEnemigas::TransportistaT:
+        ClaseNave = ANaveTerrestre::StaticClass();
+        break;
+    case ETipoNavesEnemigas::Artillero:
+        ClaseNave = ANaveTerrestre::StaticClass();
+        break;
+    case ETipoNavesEnemigas::Explorador:
+        ClaseNave = ANaveAcuatica::StaticClass();
+        break;
+    case ETipoNavesEnemigas::Rescate:
+        ClaseNave = ANaveAcuatica::StaticClass();
+        break;
+        
     default:
 
         // Si no se reconoce TipoNave, registra un mensaje de error y devuelve nullptr.

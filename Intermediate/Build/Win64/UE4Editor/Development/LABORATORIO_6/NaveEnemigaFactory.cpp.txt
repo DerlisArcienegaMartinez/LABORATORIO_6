@@ -17,3 +17,15 @@ C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORI
 C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\NaveTerrestre.generated.h
 C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\NaveAcuatica.h
 C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\NaveAcuatica.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\AereaCaza.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\AereaCaza.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\AereaTransporte.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\AereaTransporte.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\TerrestreTransporte.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\TerrestreTransporte.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\TerrestreArtilleria.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\TerrestreArtilleria.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\AcuaticaExploracion.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\AcuaticaExploracion.generated.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Source\LABORATORIO_6\AcuaticaRescate.h
+C:\Users\LENOVO\Desktop\dkam\LaboratirioFactory6\LABORATORIO_6\Intermediate\Build\Win64\UE4Editor\Inc\LABORATORIO_6\AcuaticaRescate.generated.h

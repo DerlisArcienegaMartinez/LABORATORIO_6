@@ -38,7 +38,7 @@ ANaveAcuatica::ANaveAcuatica()
 void ANaveAcuatica::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Mover(DeltaTime);
+	
 
 
 }
@@ -49,23 +49,7 @@ void ANaveAcuatica::Tick(float DeltaTime)
 void ANaveAcuatica::Mover(float DeltaTime)
 {
 
-	FVector PosicionActual = GetActorLocation();  // Obtener la posición actual del actor
-
-	/* CALCULAR EL DESPLAZAMIENTO BASADO EN LA VELOCIDAD Y TIEMPO TRANSCURRIDO */
-	FVector Desplazamiento = direccionMovimiento * velocidadMovimiento * DeltaTime;
-	PosicionActual += Desplazamiento;
-
-	/* VERIFICAR LOS LIMITES DEL ESCENARIO Y CAMBIAR LA DIRECCION DE MOVIMIENTO SI ES NECESARIO */
-	if (PosicionActual.X < LimiteInferior || PosicionActual.X > LimiteSuperior)
-	{
-		direccionMovimiento.X *= -1.0f;   // Invertir la dirección en el eje X para rebotar en la pared izquierda o derecha
-	}
-	if (PosicionActual.Y < LimiteIzquierdo || PosicionActual.Y > LimiteDerecho)
-	{
-		direccionMovimiento.Y *= -1.0f;   // Invertir la dirección en el eje Y para rebotar en la pared inferior o superior
-	}
-
-	SetActorLocation(PosicionActual);   // Establecer la nueva posición del actor
+	
 
 }
 

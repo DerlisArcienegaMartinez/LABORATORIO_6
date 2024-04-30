@@ -36,7 +36,7 @@ public: \
 
 #define LABORATORIO_6_Source_LABORATORIO_6_AereaTransporte_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAereaTransporte(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAereaTransporte(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAereaTransporte) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAereaTransporte); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAereaTransporte); \
@@ -48,8 +48,6 @@ public:
 
 
 #define LABORATORIO_6_Source_LABORATORIO_6_AereaTransporte_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAereaTransporte() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAereaTransporte(AAereaTransporte&&); \

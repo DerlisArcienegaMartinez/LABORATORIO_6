@@ -36,7 +36,7 @@ public: \
 
 #define LABORATORIO_6_Source_LABORATORIO_6_AereaCaza_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAereaCaza(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAereaCaza(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAereaCaza) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAereaCaza); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAereaCaza); \
@@ -48,8 +48,6 @@ public:
 
 
 #define LABORATORIO_6_Source_LABORATORIO_6_AereaCaza_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAereaCaza() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAereaCaza(AAereaCaza&&); \

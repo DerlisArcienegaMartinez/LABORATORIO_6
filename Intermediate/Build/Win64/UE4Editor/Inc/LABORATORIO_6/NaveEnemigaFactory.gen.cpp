@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemigaFactory() {}
 		return ETipoNavesEnemigas_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETipoNavesEnemigas(ETipoNavesEnemigas_StaticEnum, TEXT("/Script/LABORATORIO_6"), TEXT("ETipoNavesEnemigas"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_LABORATORIO_6_ETipoNavesEnemigas_Hash() { return 813152945U; }
+	uint32 Get_Z_Construct_UEnum_LABORATORIO_6_ETipoNavesEnemigas_Hash() { return 2890742805U; }
 	UEnum* Z_Construct_UEnum_LABORATORIO_6_ETipoNavesEnemigas()
 	{
 #if WITH_HOT_RELOAD
@@ -52,16 +52,28 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemigaFactory() {}
 				{ "ETipoNavesEnemigas::Aereas", (int64)ETipoNavesEnemigas::Aereas },
 				{ "ETipoNavesEnemigas::Terrestre", (int64)ETipoNavesEnemigas::Terrestre },
 				{ "ETipoNavesEnemigas::Acuatica", (int64)ETipoNavesEnemigas::Acuatica },
+				{ "ETipoNavesEnemigas::Caza", (int64)ETipoNavesEnemigas::Caza },
+				{ "ETipoNavesEnemigas::Transporte", (int64)ETipoNavesEnemigas::Transporte },
+				{ "ETipoNavesEnemigas::TransportistaT", (int64)ETipoNavesEnemigas::TransportistaT },
+				{ "ETipoNavesEnemigas::Artillero", (int64)ETipoNavesEnemigas::Artillero },
+				{ "ETipoNavesEnemigas::Explorador", (int64)ETipoNavesEnemigas::Explorador },
+				{ "ETipoNavesEnemigas::Rescate", (int64)ETipoNavesEnemigas::Rescate },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "Acuatica.Name", "ETipoNavesEnemigas::Acuatica" },
 				{ "Aereas.Name", "ETipoNavesEnemigas::Aereas" },
+				{ "Artillero.Name", "ETipoNavesEnemigas::Artillero" },
 				{ "BlueprintType", "true" },
+				{ "Caza.Name", "ETipoNavesEnemigas::Caza" },
 				{ "Comment", "/*Tipo enumerado(uint8) para representar \n diferentes tipos de NavesEnemigas*/" },
+				{ "Explorador.Name", "ETipoNavesEnemigas::Explorador" },
 				{ "ModuleRelativePath", "NaveEnemigaFactory.h" },
+				{ "Rescate.Name", "ETipoNavesEnemigas::Rescate" },
 				{ "Terrestre.Name", "ETipoNavesEnemigas::Terrestre" },
 				{ "ToolTip", "Tipo enumerado(uint8) para representar\n diferentes tipos de NavesEnemigas" },
+				{ "Transporte.Name", "ETipoNavesEnemigas::Transporte" },
+				{ "TransportistaT.Name", "ETipoNavesEnemigas::TransportistaT" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {

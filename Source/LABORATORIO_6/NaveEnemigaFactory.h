@@ -17,7 +17,14 @@ enum class ETipoNavesEnemigas : uint8
 {
 	Aereas,
 	Terrestre,
-	Acuatica
+	Acuatica,
+
+	Caza,
+	Transporte,
+	TransportistaT,
+	Artillero,
+	Explorador,
+	Rescate
 };
 UCLASS()
 class LABORATORIO_6_API UNaveEnemigaFactory : public UObject
